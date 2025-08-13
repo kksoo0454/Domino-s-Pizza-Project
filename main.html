@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <link rel="apple-touch-icon=precomposed" href="./images/favicon.png">
+    <!-- 기본 Reset CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 페이지 관련 CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- JS 플러그인 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <!-- 페이지 관련 JS -->
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header id="header">
+            <div class="top-wrap">
+                <a href="https://web.dominos.co.kr/main" class="btn-logo"><img src="./images/icon/Main Logo.png" alt="도미노피자로고"></a>
+                <div class="location">
+                    <img src="./images/icon/MyLocation.png" alt="내위치아이콘">
+                    <a href="#">동일로215길 48</a>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li>
+                            <a href="#">로그인</a>
+                        </li>
+                        <li>
+                            <a href="#">회원가입</a>
+                        </li>
+                        <li>
+                            <select id="select-type">
+                                <option value="kor">KOR</option>
+                                <option value="eng">ENG</option>
+                            </select>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- 1Depth Menu -->
+            <div class="gnb-wrap">
+                <div class="gnb">
+                    <ul>
+                        <li><a href="#">메뉴</a></li>
+                        <li><a href="#">e-쿠폰</a></li>
+                        <li><a href="#">상품권 선물</a></li>
+                        <li><a href="#">이벤트·제휴</a></li>
+                        <li><a href="#">매장검색</a></li>
+                        <li><a href="#">가맹점모집</a></li>
+                        <li>
+                            <label for="snb-more" class="more-label">
+                                더보기
+                                <span class="arrow"></span>
+                            </label>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <!-- 더보기 버튼 (ul 밖이지만 한 줄에 보이게) -->
+            <input type="checkbox" id="snb-more">
+            <div class="snb-wrap">
+                <div class="snb">
+                    <div class="inner-box">
+                        <div class="menu-wrap">
+                            <div class="menu-box">
+                                <dl>
+                                    <dt><a href="#">도미노 서비스</a></dt>
+                                    <dd><a href="#">매니아 혜택</a></dd>
+                                    <dd><a href="#">도미노 모멘트</a></dd>
+                                    <dd><a href="#">퀵오더</a></dd>
+                                    <dd><a href="#">단체주문 서비스</a></dd>
+                                </dl>
+                            </div>
+                            <div class="menu-box">
+                                <dl>
+                                    <dt><a href="#">고객센터</a></dt>
+                                    <dd><a href="#">자주하는 질문</a></dd>
+                                    <dd><a href="#">문의&#47;칭찬하기</a></dd>
+                                    <dd><a href="#">문의 내역&#47;답변</a></dd>
+                                </dl>
+                            </div>
+                            <div class="menu-box">
+                                <dl>
+                                    <dt><a href="#">회사소개</a></dt>
+                                    <dd><a href="#">한국도미노피자</a></dd>
+                                    <dd><a href="#">광고갤러리</a></dd>
+                                    <dd><a href="#">사회공헌활동</a></dd>
+                                    <dd><a href="#">가맹점 모집</a></dd>
+                                    <dd><a href="#">인재채용</a></dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="notice-box">
+                            <dl>
+                                <dt><a href="#">공지사항</a></dt>
+                                <dd><a href="#">&#45;도미노뉴스</a></dd>
+                                <dd><a href="#">&#45;보도자료</a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /1Depth Menu -->
+        </header>
+    </div>
+</body>
+</html>

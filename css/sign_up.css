@@ -1,0 +1,83 @@
+@charset "utf-8";
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu_header {
+    margin-top: 50px;
+    margin-bottom: 56px;
+    padding-bottom: 42px;
+    border-bottom: 1px solid #dddddd;
+}
+.menu_header .menu_title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    padding: 32px 0;
+    border-bottom: 2px solid #000;
+}
+.menu_header .menu_title h2 {
+    font-size: 32px;
+}
+.menu_header .menu_title p {
+    font-size: 14px;
+}
+.sign_step {
+    display: flex;
+    justify-content: center;
+}
+.sign_step p {
+    font-size: 16px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #000;
+    font-weight: 700;
+}
+.sign_step p:first-child {
+    color: #888;
+}
+.sign_step p:last-child {
+    color: #888;
+    border-bottom: 1px solid #ddd;
+    padding-left: 15px;
+}
+.sign_step span {
+    color: #888;
+    border-bottom: 1px solid #000;
+    padding: 10px 0;
+}
+.sign_step span:last-child {
+    padding-right: 0;
+}
+form {
+    padding-left: 40px;
+    padding-bottom: 100px;
+    position: relative;
+}
+form label {
+    display: flex;
+    padding: 15px 0;
+    width: fit-content;
+}
+form p {
+    width: 210px;
+    font-weight: 600;
+    line-height: 40px;
+}
+form input {
+    width: 276px;
+    height: 40px;
+    border: 1px solid #ddd;
+}
+form button {
+    width: 220px;
+    height: 60px;
+    background: #ff143c;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 66px;
+}

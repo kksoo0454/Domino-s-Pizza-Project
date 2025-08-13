@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴-하프앤하프</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <link rel="apple-touch-icon=precomposed" href="./images/favicon.png">
+    <!-- 기본 Reset CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 페이지 관련 CSS -->
+    <link rel="stylesheet" href="./css/menu.css">
+    <!-- JS 플러그인 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <!-- 페이지 관련 JS -->
+
+</head>
+<body>
+    <div id="wrap">
+        <div class="menu_header">
+            <div class="menu_title">
+                <h2>메뉴</h2>
+                <p><span style="color: #8f918f;">홈 > 메뉴 ></span> 피자</p>
+            </div>
+            <nav class="menu_teb">
+                <ul>
+                    <li>
+                        <label><input type="checkbox"><span>피자</span></label>
+                    </li>
+                    <li>
+                        <label><input type="checkbox" checked><span>하프앤하프</span></label>
+                    </li>
+                    <li>
+                        <label><input type="checkbox"><span>사이드디시</span></label>
+                    </li>
+                    <li>
+                        <label><input type="checkbox"><span>인기세트메뉴</span></label>
+                    </li>
+                    <li>
+                        <label><input type="checkbox"><span>마이키친</span></label>
+                    </li>
+                    <li>
+                        <label><input type="checkbox"><span>음료&기타</span></label>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <img src="./images/half.jpg" alt="하프앤하프">
+        <section>
+            <h2>피자 한 판으로 두 가지 맛을 동시에!</h2>
+            <div>
+                <h4><span>추천</span>베스트 조합! 하프앤하프 시그니처!</h4>
+                <div class="half_wrap">
+                    <div>
+                        <img src="./images/half_signiture01.jpg" alt="하프 시그니처1">
+                        <p>필라델피아 치즈 스테이크 + 블랙타이거 슈림프</p>
+                        <button>주문하기</button>
+                    </div>
+                    <div>
+                        <img src="./images/half_signiture02.jpg" alt="하프 시그니처2">
+                        <p>필라델피아 치즈 스테이크 + 포테이토</p>
+                        <button>주문하기</button>
+                    </div>
+                    <div>원산지·영양성분·알레르기 유발성분 정보</div>
+                    <p><span>ⓘ</span>하프앤하프 피자 이용 시 유의사항</p>
+                    <div>
+                        <h4>피자 선택<span>총열량(872.5 kcal~ 4,830 kcal)</span></h4>
+                        <select name="first_pizza" id="first_pizza">
+                            <option value="first">첫번째 피자</option>
+                            <option value="first">필라델피아 치즈 스테이크</option>
+                            <option value="first">K-쌈장 채끝스테이크</option>
+                            <option value="first">K-Rib&치즈</option>
+                            <option value="first">포테이토</option>
+                            <option value="first">와일드 와일드 웨스트 스테이크</option>
+                            <option value="first">블랙타이거 슈림프</option>
+                            <option value="first">뉴욕 오리진</option>
+                            <option value="first">리얼불고기</option>
+                            <option value="first">우리 고구마</option>
+                            <option value="first">슈퍼디럭스</option>
+                            <option value="first">슈퍼슈프림</option>
+                            <option value="first">페퍼로니</option>
+                            <option value="first">치즈</option>
+                            <option value="first">맥콘 베이컨</option>
+                            <option value="first">클래식 리코타</option>
+                            <option value="first">소시지 맥스</option>
+                            <option value="first">맵퍼로니</option>
+                        </select>
+                        <select name="second_pizza" id="second_pizza">
+                            <option value="second">첫번째 피자</option>
+                            <option value="second">필라델피아 치즈 스테이크</option>
+                            <option value="second">K-쌈장 채끝스테이크</option>
+                            <option value="second">K-Rib&치즈</option>
+                            <option value="second">포테이토</option>
+                            <option value="second">와일드 와일드 웨스트 스테이크</option>
+                            <option value="second">블랙타이거 슈림프</option>
+                            <option value="second">뉴욕 오리진</option>
+                            <option value="second">리얼불고기</option>
+                            <option value="second">우리 고구마</option>
+                            <option value="second">슈퍼디럭스</option>
+                            <option value="second">슈퍼슈프림</option>
+                            <option value="second">페퍼로니</option>
+                            <option value="second">치즈</option>
+                            <option value="second">맥콘 베이컨</option>
+                            <option value="second">클래식 리코타</option>
+                            <option value="second">소시지 맥스</option>
+                            <option value="second">맵퍼로니</option>
+                        </select>
+                        <ul>
+                            <li>하프앤하프 시그니처는 [메뉴] > [피자] 카테고리 또는 상단의 추천 메뉴에서 주문가능합니다.</li>
+                            <li>제품 조합 및 사이즈에 따라 주문할 수 있는 도우와 엣지가 달라집니다.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>사이즈 선택</h4>
+                        <label for="L">
+                            <input type="checkbox" name="L" id="L" value="L">
+                            <div>L</div>
+                        </label>
+                        <label for="M">
+                            <input type="checkbox" name="M" id="M" value="M">
+                            <div>M</div>
+                        </label>
+                    </div>
+                    <div>
+                        <h4>도우 선택<p><span>ⓘ</span>도우의 특징</p></h4>
+                        <label for="dough1">
+                            <div>
+                                <input type="checkbox" name="dough1" id="dough1">
+                                오리지널 하이프로틴 도우
+                            </div>
+                            <p>+3,000원</p>
+                        </label>
+                        <label for="dough2">
+                            <div>
+                                <input type="checkbox" name="dough2" id="dough2">
+                                나폴리 하이 프로틴 도우
+                            </div>
+                            <p>+3,000원</p>
+                        </label>
+                        <label for="dough3">
+                            <div>
+                                <input type="checkbox" name="dough3" id="dough3">
+                                오리지널 도우
+                            </div>
+                        </label>
+                        <label for="dough4">
+                            <div>
+                                <input type="checkbox" name="dough4" id="dough4">
+                                나폴리 도우
+                            </div>
+                        </label>
+                        <label for="dough5">
+                            <div>
+                                <input type="checkbox" name="dough5" id="dough5">
+                                씬 도우(기본 갈릭 디핑 소스 미제공)
+                            </div>
+                        </label>
+                    </div>
+                    <div>
+                        <h4>엣지 선택<p><span>ⓘ</span>엣지의 특징</p></h4>
+                        <label for="edge1">
+                            <input type="checkbox" name="edge1" id="edge1">
+                            선택 안함
+                        </label>
+                        <label for="edge2">
+                            <div>
+                                <input type="checkbox" name="edge2" id="edge2">
+                                트리플 치즈 버스트 엣지
+                            </div>
+                            <p>+5,000원</p>
+                        </label>
+                    </div>
+                    <div>
+                        <h4>토핑 추가
+                            <button><i class="fas fa-chevron-down"></i></button>
+                        </h4>
+                        <div>
+                            <p>*토핑추가는 피자 한판 당 5개까지 추가 가능</p>
+                            <label for="toping_main">
+                                <input type="checkbox" name="toping_main" id="toping_main">
+                                <div>메인</div>
+                            </label>
+                            <label for="toping_cheese">
+                                <input type="checkbox" name="toping_cheese" id="toping_cheese">
+                                <div>치즈</div>
+                            </label>
+                            <label for="toping_after">
+                                <input type="checkbox" name="toping_after" id="toping_after">
+                                <div>애프터</div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+</body>
+</html>
