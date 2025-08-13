@@ -42,7 +42,7 @@
 |------|----------|
 | **Frontend** | HTML5, CSS3, JavaScript |
 | **Design** | Figma, Photoshop *(스타일 가이드·시안 제작)* |
-| **협업 도구** | GitHub, Notion, Slack |
+| **협업 도구** | GitHub, Notion |
 
 ---
 
