@@ -164,6 +164,17 @@ s {
     justify-content: space-between;
     height: 46px;
 }
+.minus_btn,
+.plus_btn {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 200;
+    background: #fff;
+}
+.minus_btn{
+    font-size: 40px;
+    line-height: 1;
+}
 .quantity_btn {
     display: flex;
 }
@@ -183,6 +194,8 @@ s {
     width: 98px;
     background-color: #ff143c;
     color: #fff;
+    border: none;
+    font-size: 16px;
 }
 .pizza_info {
     color: #8f918f;

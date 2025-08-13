@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>상품권 선물</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="./images/favicon.png">
-    <link rel="apple-touch-icon=precomposed" href="./images/favicon.png">
+    <!-- 아이콘 및 스타일 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <link rel="apple-touch-icon=precomposeds" href="./images/favicon.png" />
     <!-- 기본 Reset CSS -->
     <link rel="stylesheet" href="./css/reset.css">
     <!-- 페이지 관련 CSS -->
@@ -21,6 +23,9 @@
 </head>
 <body>
     <div id="wrap">
+        <header>
+            <div id="header"></div>
+        </header>
         <div class="menu_header">
             <div class="menu_title">
                 <h2>상품권 선물</h2>
@@ -373,5 +378,19 @@
             </ul>
         </section>
     </div>
+    <footer>
+        <div id="footer"></div>
+    </footer>
+    <script>
+        $(function(){
+            $("#header").load('./header.html');
+            $("#footer").load('./footer.html');
+
+            const script = document.createElement('script');
+            script.src = './header.js';
+            document.body.appendChild(script);
+        })
+    </script>    
+    <script src="./js/coming-soon.js"></script>
 </body>
 </html>

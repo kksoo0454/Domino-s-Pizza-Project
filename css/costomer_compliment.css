@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 #costomer_compliment_wrap {
     width: 1200px;
     margin: 0 auto;
@@ -47,6 +49,7 @@
 .costomer_compliment_sub_gnb p:nth-child(3){
     border-right: none;
 }
+/* /gnb */
 
 /* notice */
 .costomer_compliment_notice {
@@ -96,7 +99,6 @@ textarea#costomer_compliment_privacyNotice {
     display: flex;
     gap: 12px;
     font-size: 16px;
-    
 }
 .costomer_compliment_radio_styled label {
     display: flex;
@@ -132,6 +134,7 @@ textarea#costomer_compliment_privacyNotice {
 /* ✨ 위치별 개별 스타일 */
 .costomer_compliment_radio_styled_agree {
     position: absolute;
+    bottom: 1900px;  
     right: 30px;   
     background-color: rgba(255, 255, 255, 0.7);
     padding: 4px 8px;
@@ -166,7 +169,6 @@ textarea#costomer_compliment_privacyNotice {
 #costomer_compliment_form {
     font-size: 16px;
     color: rgb(30, 30, 30);
-    margin-bottom: 80px;
 }
 .costomer_compliment_form {
     height: 102px;
@@ -195,7 +197,7 @@ textarea#costomer_compliment_privacyNotice {
 
 input#costomer_compliment_name{
     width: 328px;
-    margin-left: 160px;
+    margin-left: 176px;
 }
 
 .costomer_compliment_phone>select,
@@ -205,13 +207,13 @@ input#costomer_compliment_name{
     font-family: 'Roboto';
 }
 .costomer_compliment_phone>select {
-    margin-left: 146px;
+    margin-left: 148px;
 }
 
 
 .costomer_compliment_email input,
 .costomer_compliment_email select {
-    width: 157px;
+    width: 158px;
     margin-right: 9px;
 }
 .costomer_compliment_email input:nth-of-type(1) {
@@ -223,11 +225,7 @@ input#costomer_compliment_name{
 
 .costomer_compliment_password input{
     width: 210px;
-    margin-left: 146px;
-}
-.costomer_compliment_password_chk input{
-    width: 210px;
-    margin-left: 112px;
+    margin-left: 148px;
 }
 
 .costomer_compliment_category select,
@@ -354,35 +352,4 @@ input#costomer_compliment_name{
 .costomer_compliment_form_btn button {
     width: 220px;
     height: 62px;
-}
-
-/* 회원가입 수정 추가 css */
-.sign_step {
-    display: flex;
-    justify-content: center;
-}
-.sign_step p {
-    font-size: 16px;
-    padding: 10px 15px;
-    border-bottom: 1px solid #000;
-    font-weight: 700;
-}
-.sign_step p:first-child {
-    color: #888;
-}
-.sign_step p:last-child {
-    color: #888;
-    border-bottom: 1px solid #ddd;
-    padding-left: 15px;
-}
-.sign_step span {
-    color: #888;
-    border-bottom: 1px solid #000;
-    padding: 10px 0;
-}
-.sign_step span:last-child {
-    padding-right: 0;
-}
-main {
-    margin-bottom: 50px;
 }

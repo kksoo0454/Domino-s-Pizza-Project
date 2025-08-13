@@ -116,13 +116,3 @@ button {
     text-indent: -9999px;
     overflow: hidden;
 }
-
-/* 반응형 탬플릿 CSS 추가 */
-input, textarea {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    vertical-align: top;
-}

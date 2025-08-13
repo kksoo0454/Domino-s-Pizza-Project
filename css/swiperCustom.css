@@ -1,4 +1,4 @@
-@charset "uft-8";
+@charset "utf-8";
 /* 1. 스와이퍼 페이퍼 영역 */
 #portfolio {
     width: 100%;
@@ -10,7 +10,6 @@
 .swiper-container {
     padding-top: 100px;
     padding-bottom: 84px;
-    background-color: black;
 }
 /* C-1. 스와이퍼 될 각각 내용들 */
 .swiper-slide {
@@ -29,6 +28,7 @@ button {
     outline: none;
     border: none;
 }
+
 .swiper-slide h3 {
     font-size: 60px;
     font-family: 'Anton', sans-serif;
@@ -57,3 +57,5 @@ button {
     background-color: #fff;
     color: #454545;
 }
+
+
